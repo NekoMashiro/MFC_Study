@@ -1,0 +1,4 @@
+﻿  window.c
+e:\github\mfc_study\底层窗口的实现\底层窗口的实现\window.c(31): warning C4133: “函数”: 从“char [64]”到“LPWSTR”的类型不兼容
+e:\github\mfc_study\底层窗口的实现\底层窗口的实现\window.c(32): warning C4133: “函数”: 从“char [64]”到“LPCWSTR”的类型不兼容
+  底层窗口的实现.vcxproj -> E:\github\MFC_Study\底层窗口的实现\Debug\底层窗口的实现.exe
