@@ -1,0 +1,3 @@
+﻿  mfc.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  MFC窗口的创建.vcxproj -> E:\github\MFC_Study\MFC窗口的创建\Debug\MFC窗口的创建.exe
