@@ -1,3 +1,10 @@
 ﻿  mfc.cpp
   _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
-  MFC窗口的创建.vcxproj -> E:\github\MFC_Study\MFC窗口的创建\Debug\MFC窗口的创建.exe
+e:\github\mfc_study\mfc窗口的创建\mfc窗口的创建\mfc.cpp(45): error C2440: “初始化”: 无法从“const char [5]”转换为“char *”
+  e:\github\mfc_study\mfc窗口的创建\mfc窗口的创建\mfc.cpp(45): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+e:\github\mfc_study\mfc窗口的创建\mfc窗口的创建\mfc.cpp(50): error C2440: “初始化”: 无法从“const char [5]”转换为“wchar_t *”
+  e:\github\mfc_study\mfc窗口的创建\mfc窗口的创建\mfc.cpp(50): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\github\mfc_study\mfc窗口的创建\mfc窗口的创建\mfc.cpp(55): error C2440: “初始化”: 无法从“const char [5]”转换为“char *”
+  e:\github\mfc_study\mfc窗口的创建\mfc窗口的创建\mfc.cpp(55): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+e:\github\mfc_study\mfc窗口的创建\mfc窗口的创建\mfc.cpp(56): error C2374: “str”: 重定义；多次初始化
+  e:\github\mfc_study\mfc窗口的创建\mfc窗口的创建\mfc.cpp(39): note: 参见“str”的声明

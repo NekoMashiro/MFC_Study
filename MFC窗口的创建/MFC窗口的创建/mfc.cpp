@@ -40,6 +40,25 @@ void MyFrame::OnLButtonDown(UINT, CPoint point)
 	str.Format(TEXT("x = %d, y = %d"), point.x, point.y);
 	MessageBox(str, TEXT("MFC中的字符串 CString"));
 
+	//统计多字节字符串长度
+	int num1 = 0;
+	char* p1 = "aaaa";
+	num1 = strlen(p1);
+	
+	//统计宽字节字符串长度
+	int num2 = 0;
+	wchar_t* p2 = "bbbb";
+	num2 = wcslen(p2);
+
+	//char与CString的转换
+	//char* -> CString
+	char* p3 = "cccc";
+	CString str = CString(p3);
+
+	//CString -> char*
+	CStringA tmp;
+	tmp = str;
+	char* p4 = tmp.GetBuffer();
 }
 
 void MyFrame::OnChar(UINT key, UINT, UINT)
