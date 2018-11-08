@@ -186,6 +186,7 @@
     <ClInclude Include="CDisplayView.h" />
     <ClInclude Include="CLoginDlg.h" />
     <ClInclude Include="CSelectView.h" />
+    <ClInclude Include="CUserDlg.h" />
     <ClInclude Include="InfoFile.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="MFCSaleSystem.h" />
@@ -199,6 +200,7 @@
     <ClCompile Include="CDisplayView.cpp" />
     <ClCompile Include="CLoginDlg.cpp" />
     <ClCompile Include="CSelectView.cpp" />
+    <ClCompile Include="CUserDlg.cpp" />
     <ClCompile Include="InfoFile.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="MFCSaleSystem.cpp" />
